@@ -2,7 +2,11 @@ using UnityEngine;
 
 public class KuriController : MonoBehaviour
 {
-	[SerializeField] GameObject player;
+	GameObject player;
+	GameObject gameManager;
+
+	public void SetPlayer(GameObject p) { player  = p; }
+	public void SetGameManager(GameObject gm) { gameManager = gm; }
 	private void Update()
 	{
 		// ƒtƒŒ[ƒ€‚²‚Æ‚É“™‘¬—‰º
