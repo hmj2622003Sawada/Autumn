@@ -10,6 +10,7 @@ public class KuriGenerator : MonoBehaviour
 
 	private void Update()
 	{
+		// Ÿ{ŒI‚ÌoŒ»‚³‚¹‚é‚½‚ß‚Ì‹@\
 		delta += Time.deltaTime;
 		if(delta>span)
 		{
