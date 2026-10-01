@@ -20,7 +20,6 @@ public class KuriGenerator : MonoBehaviour
 			go.GetComponent<KuriController>().SetGameManager(gameManager);
 			int px = Random.Range(-6, 6);
 			go.transform.position = new Vector3(px, 6, 0);
-			
 		}
 	}
 }

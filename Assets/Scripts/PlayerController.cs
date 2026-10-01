@@ -23,7 +23,6 @@ public class PlayerController : MonoBehaviour
 		if(Keyboard.current.rightArrowKey.wasPressedThisFrame && rightflag == false)
 		{
 			transform.Translate(2, 0, 0);
-
 		}
 
 		Vector3 pos = transform.position;
