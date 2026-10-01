@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
-public class RestultController : MonoBehaviour
+public class ResultController : MonoBehaviour
 {
 	private void Update()
 	{
